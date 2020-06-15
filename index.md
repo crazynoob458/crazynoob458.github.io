@@ -12,6 +12,6 @@ also i play games overwatch ac zelda minecraft etc
 
 ## contact me?
 
-go find it its someware in my website
+go find it its someware in my website 
 
-[sitemap] (https://crazynoob458.github.io/sitemap)
+https://crazynoob458.github.io/sitemap
