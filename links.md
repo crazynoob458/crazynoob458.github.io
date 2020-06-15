@@ -2,8 +2,8 @@
 
 ## gbatemp
 
-https://gbatemp.net/members/crazynoob458.509941/
+[a button](https://gbatemp.net/members/crazynoob458.509941/)
 
 ## blog
 
-https://timstechblog.edublogs.org/
+[the other button](https://timstechblog.edublogs.org/)
