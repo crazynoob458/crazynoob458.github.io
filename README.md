@@ -1,6 +1,3 @@
----
-title: tims website
----
 # welcome to tims website
 
 ## who am i?
