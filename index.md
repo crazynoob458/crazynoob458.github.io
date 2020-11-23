@@ -1,7 +1,13 @@
-new site under consruction
+this site has been pogged for now
 
-click view on github for stuff
+i will work on it later
 
-im rewriting the code in HTML
+for now heres some ways to contact me
 
 https://crazynoob458.github.io/archive/indexold website archive
+
+https://gbatemp.net/members/crazynoob458.509941/ gbatemp
+
+crazynoob458#9547 discord
+
+https://tag.rc24.xyz/408878363923709952 riitag (if you like wiis)
