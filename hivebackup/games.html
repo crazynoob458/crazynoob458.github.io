@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Games &raquo; TheHive</title>
+<meta name="description" content="Our Games. Find all of our popular Minecraft Minigames, such as Hide and Seek, Survival Games, SkyWars and many more!">
+<meta name="author" content="TheHive - HiveMC">
+<meta name="csrf-token" content="OXM3aJB6wzDPiMQdcW27gGz5EqWHuTuhkSUteIz3">
+<meta name="msvalidate.01" content="5904171E80DF2DA31D7282B47246E8C7"/>
+<link rel="stylesheet" href="../font-awesome/4-7-0/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="../css/hive.css">
+<link rel="stylesheet" type="text/css" href="../ajax/libs/cookieconsent2/3-0-3/cookieconsent.min.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="../ajax/libs/jquery/1-8-3/jquery.min.js"></script>
+<script src="../ajax/libs/clipboard-js/1-5-8/clipboard.min.js"></script>
+<script src="../js/hive.main.js"></script>
+<script src="../ajax/libs/cookieconsent2/3-0-3/cookieconsent.min.js"></script>
+<link rel="icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div id="header">
+<div class="wrapper">
+<div class="how-to-play">
+</div>
+<div class="logo">The Hive Minecraft Server</div>
+</div>
+</div>
+<div id="navigation-filler"></div>
+<div id="navigation">
+<div class="wrapper">
+<a href="/" class="logo sticky-only"></a>
+<ul>
+<li class=""><a href="/">Home</a></li>
+<li class="active"><a href="../games/">The Hive Games</a></li>
+<li class=""><a href="../players/">Player Portal</a></li>
+<li class=""><a href="../support/">Support</a></li>
+</ul>
+</div>
+</div>
+<div id="games">
+<div class="wrapper">
+<div class="selector">
+<ul>
+<li><a href="#" class="selected" data-tag="all">All</a></li>
+<li><a href="#" data-tag="popular">Popular</a></li>
+<li><a href="#" data-tag="pvp">PVP</a></li>
+<li><a href="#" data-tag="objective">Objective</a></li>
+<li><a href="#" data-tag="parkour">Parkour</a></li>
+<li><a href="#" data-tag="arcade">Arcade</a></li>
+<li><a href="#" data-tag="solo">Solo</a></li>
+<li><a href="#" data-tag="team">Team</a></li>
+</ul>
+</div>
+<ul class="game-list">
+<li class="pmk" data-tags="popular,team">
+<a href="../pumpkinfection/">
+<img src="../img/games/pmk.jpg"/>
+<div class="overlay">
+<h3>Pumpkinfection</h3>
+<p>This is Halloween!</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>Popular</li>
+<li>Team</li>
+</ul>
+</a>
+</li>
+<li class="bed" data-tags="pvp,objective,team,solo">
+<a href="../bedwars/">
+<img src="../img/games/bed.jpg"/>
+<div class="overlay">
+<h3>BedWars</h3>
+<p>Wakey Wakey...</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>PVP</li>
+<li>Objective</li>
+<li>Team</li>
+<li>Solo</li>
+</ul>
+</a>
+</li>
+<li class="mimv" data-tags="solo,pvp">
+<a href="../murder-in-mineville/">
+<img src="../img/games/mimv.jpg"/>
+<div class="overlay">
+<h3>Murder</h3>
+<p>... in Mineville!</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>Solo</li>
+<li>PVP</li>
+</ul>
+</a>
+</li>
+<li class="hide" data-tags="popular,solo">
+<a href="../hide-and-seek/">
+<img src="../img/games/hide.jpg"/>
+<div class="overlay">
+<h3>Hide and Seek</h3>
+<p>Shhh... they're coming!</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>Popular</li>
+<li>Solo</li>
+</ul>
+</a>
+</li>
+<li class="timv" data-tags="popular,pvp,solo">
+<a href="../trouble-in-mineville/">
+<img src="../img/games/timv.jpg"/>
+<div class="overlay">
+<h3>TIMV</h3>
+<p>Who can you trust?</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>Popular</li>
+<li>PVP</li>
+<li>Solo</li>
+</ul>
+</a>
+</li>
+<li class="sky" data-tags="popular,pvp,solo,team">
+<a href="../skywars/">
+<img src="../img/games/sky.jpg"/>
+<div class="overlay">
+<h3>SkyWars</h3>
+<p>Mine. Prepare. Fight!</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>Popular</li>
+<li>PVP</li>
+<li>Solo</li>
+<li>Team</li>
+</ul>
+</a>
+</li>
+<li class="gnt" data-tags="pvp,team,solo">
+<a href="../skygiants/">
+<img src="../img/games/gnt.jpg"/>
+<div class="overlay">
+<h3>SkyGiants</h3>
+<p>Protect your Giant!</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>PVP</li>
+<li>Team</li>
+<li>Solo</li>
+</ul>
+</a>
+</li>
+<li class="grav" data-tags="solo,arcade,parkour">
+<a href="../gravity/">
+<img src="../img/games/grav.jpg"/>
+<div class="overlay">
+<h3>Gravity</h3>
+<p>AHHHHHHH</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>Solo</li>
+<li>Arcade</li>
+<li>Parkour</li>
+</ul>
+</a>
+</li>
+<li class="dr" data-tags="solo,parkour">
+<a href="../deathrun/">
+<img src="../img/games/dr.jpg"/>
+<div class="overlay">
+<h3>DeathRun</h3>
+<p>Gotta go fast!</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>Solo</li>
+<li>Parkour</li>
+</ul>
+</a>
+</li>
+<li class="sg" data-tags="pvp,solo">
+<a href="../survival-games-2/">
+<img src="../img/games/sg.jpg"/>
+<div class="overlay">
+<h3>Survival Games 2</h3>
+<p>The classic SG.</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>PVP</li>
+<li>Solo</li>
+</ul>
+</a>
+</li>
+<li class="bp" data-tags="solo,parkour">
+<a href="../blockparty/">
+<img src="../img/games/bp.jpg"/>
+<div class="overlay">
+<h3>BlockParty</h3>
+<p>Bust out the moves!</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>Solo</li>
+<li>Parkour</li>
+</ul>
+</a>
+</li>
+<li class="sg" data-tags="pvp,solo">
+<a href="../survival-games/">
+<img src="../img/games/sg.jpg"/>
+<div class="overlay">
+<h3>Survival Games</h3>
+<p>The classic SG.</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>PVP</li>
+<li>Solo</li>
+</ul>
+</a>
+</li>
+<li class="cai" data-tags="pvp,objective,team">
+<a href="../cowboys-and-indians/">
+<img src="../img/games/cai.jpg"/>
+<div class="overlay">
+<h3>CAI</h3>
+ <p>It's Cowboys vs Indians</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>PVP</li>
+<li>Objective</li>
+<li>Team</li>
+</ul>
+</a>
+</li>
+<li class="lab" data-tags="solo">
+<a href="../lab/">
+<img src="../img/games/lab.jpg"/>
+<div class="overlay">
+<h3>The Lab</h3>
+<p>Ready to experiment?</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>Solo</li>
+</ul>
+</a>
+</li>
+<li class="bd" data-tags="pvp,arcade,objective,team">
+<a href="../batterydash/">
+<img src="../img/games/bd.jpg"/>
+<div class="overlay">
+<h3>BatteryDash</h3>
+<p>Time to CHARGE!</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>PVP</li>
+<li>Arcade</li>
+<li>Objective</li>
+<li>Team</li>
+</ul>
+</a>
+</li>
+<li class="draw" data-tags="solo,arcade">
+<a href="../draw-it/">
+<img src="../img/games/draw.jpg"/>
+<div class="overlay">
+<h3>Draw It</h3>
+<p>Can you guess it?</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>Solo</li>
+<li>Arcade</li>
+</ul>
+</a>
+</li>
+<li class="sp" data-tags="solo,parkour">
+<a href="../splegg/">
+<img src="../img/games/sp.jpg"/>
+<div class="overlay">
+<h3>Splegg</h3>
+<p>Spleef with EGGS!</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>Solo</li>
+<li>Parkour</li>
+</ul>
+</a>
+</li>
+<li class="spl" data-tags="team,arcade,objective">
+<a href="../sploop/">
+<img src="../img/games/spl.jpg"/>
+<div class="overlay">
+<h3>Sploop</h3>
+<p>It's time to paint!</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>Team</li>
+<li>Arcade</li>
+<li>Objective</li>
+</ul>
+</a>
+</li>
+<li class="oitc" data-tags="pvp,arcade,solo">
+<a href="../one-in-the-chamber/">
+<img src="../img/games/oitc.jpg"/>
+<div class="overlay">
+<h3>OITC</h3>
+<p>One arrow. One shot.</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>PVP</li>
+<li>Arcade</li>
+<li>Solo</li>
+</ul>
+</a>
+</li>
+<li class="hb" data-tags="pvp,team,objective">
+<a href="../the-herobrine/">
+<img src="../img/games/hb.jpg"/>
+<div class="overlay">
+<h3>The Herobrine</h3>
+<p>He has awoken...</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>PVP</li>
+<li>Team</li>
+<li>Objective</li>
+</ul>
+</a>
+</li>
+<li class="cr" data-tags="pvp,solo,arcade">
+<a href="../cranked/">
+<img src="../img/games/cr.jpg"/>
+<div class="overlay">
+<h3>Cranked</h3>
+<p>Tick tock, tick tock.</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>PVP</li>
+<li>Solo</li>
+<li>Arcade</li>
+</ul>
+</a>
+</li>
+<li class="ef" data-tags="solo,parkour,arcade">
+<a href="../electric-floor/">
+<img src="../img/games/ef.jpg"/>
+<div class="overlay">
+<h3>Electric Floor</h3>
+<p>Don't get shocked...</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>Solo</li>
+<li>Parkour</li>
+<li>Arcade</li>
+</ul>
+</a>
+</li>
+<li class="hero" data-tags="pvp,arcade,solo">
+<a href="../heroes/">
+<img src="../img/games/hero.jpg"/>
+<div class="overlay">
+<h3>SG: Heroes</h3>
+<p>Duel to success</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>PVP</li>
+<li>Arcade</li>
+<li>Solo</li>
+</ul>
+</a>
+</li>
+<li class="rr" data-tags="solo,arcade">
+<a href="../restaurant-rush/">
+<img src="../img/games/rr.jpg"/>
+<div class="overlay">
+<h3>Restaurant Rush</h3>
+<p>Ready. Steady. COOK!</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>Solo</li>
+<li>Arcade</li>
+</ul>
+</a>
+</li>
+<li class="slap" data-tags="solo,arcade">
+<a href="../slaparoo/">
+<img src="../img/games/slap.jpg"/>
+<div class="overlay">
+<h3>Slaparoo</h3>
+<p>SLAP FIGHT!</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>Solo</li>
+<li>Arcade</li>
+</ul>
+</a>
+</li>
+<li class="mm" data-tags="solo,arcade">
+<a href="../music-masters/">
+<img src="../img/games/mm.jpg"/>
+<div class="overlay">
+<h3>Music Masters</h3>
+<p>It's time to rock!</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>Solo</li>
+<li>Arcade</li>
+</ul>
+</a>
+</li>
+<li class="ig" data-tags="solo,arcade">
+<a href="../instagib/">
+<img src="../img/games/ig.jpg"/>
+<div class="overlay">
+<h3>Instagib</h3>
+<p>Pew pew!</p>
+<i class="fa fa-arrow-circle-right"></i>
+</div>
+<ul class="tags">
+<li>Solo</li>
+<li>Arcade</li>
+</ul>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<script src="../js/hive.games.js"></script>
+<div id="footer">
+<div class="top">
+<div class="wrapper">
+<div class="copyright">
+<img src="../img/footer-logo.png"/>
+<p>Copyright 2021 - Hive Games Limited</p>
+<p class="rights">All Rights Reserved</p>
+</div>
+<div class="players">
+<p><em>13,674,343</em> Unique Players
+</div>
+</div>
+</div>
+<div class="bottom">
+<div class="wrapper">
+<ul class="extra">
+<li><a href="../jobs/">Work @ The Hive (Jobs)</a></li>
+<li><a href="/">Developers</a></li>
+<li><a href="../terms/">Terms and Conditions</a></li>
+</ul>
+<ul class="social">
+<li class="twitter"><a href="https://twitter.com/theHiveMC"><i class="fa fa-twitter"></i></a></li>
+<li class="facebook"><a href="https://facebook.com/theHiveMC"><i class="fa fa-facebook"></i></a></li>
+<li class="youtube"><a href="https://youtube.com/theHiveYT"><i class="fa fa-youtube-play"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+<script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-45820483-1', 'hivemc.com');
+        ga('send', 'pageview');
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        })
+    </script>
+<script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "name": "The Hive",
+            "url": "https://hivemc.com",
+            "sameAs": [
+                "https://www.facebook.com/thehivemc",
+                "https://www.twitter.com/theHiveMC",
+                "https://www.youtube.com/theHiveYT"
+            ]
+        }
+    </script>
+<script>
+        console.log("Hey! If you'd like to use any of our data, please fetch it using our API instead! Check the docs here: https://apidoc.hivemc.com/");
+    </script>
+</body>
+</html>
